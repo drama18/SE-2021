@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2021-06-03T17:12:47.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="kHLw2p6pbPX80sslQ9gH" version="14.6.13" type="google">
+  <diagram id="D0J-8uqT-arGnil8wZa0" name="Remove-From-Student-List">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="GCy_2HIm_hiaK4Stqe_q-0" />
+        <mxCell id="GCy_2HIm_hiaK4Stqe_q-1" parent="GCy_2HIm_hiaK4Stqe_q-0" />
+        <mxCell id="QDjTLERaOXLPRArQjVgm-0" value="Web App Client (Mentor)" style="swimlane;whiteSpace=wrap" parent="GCy_2HIm_hiaK4Stqe_q-1" vertex="1">
+          <mxGeometry x="80" y="90" width="280" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="QDjTLERaOXLPRArQjVgm-0" source="QDjTLERaOXLPRArQjVgm-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="110" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-3" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="QDjTLERaOXLPRArQjVgm-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="140" as="sourcePoint" />
+            <mxPoint x="125" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-4" value="Mentor Dashboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="70" y="20" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="QDjTLERaOXLPRArQjVgm-0" source="QDjTLERaOXLPRArQjVgm-7" target="QDjTLERaOXLPRArQjVgm-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="375" />
+              <mxPoint x="240" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-6" value="Cancel removal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QDjTLERaOXLPRArQjVgm-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.8185" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-7" value="" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="85.41" y="350" width="74.19" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-8" value="&lt;span&gt;Open &quot;View Students&quot; in dashboard&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="65" y="100" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="QDjTLERaOXLPRArQjVgm-0" source="QDjTLERaOXLPRArQjVgm-10" target="QDjTLERaOXLPRArQjVgm-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-10" value="Select a student from student list" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="47.5" y="170" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="QDjTLERaOXLPRArQjVgm-0" source="QDjTLERaOXLPRArQjVgm-12" target="QDjTLERaOXLPRArQjVgm-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-12" value="&lt;span&gt;Select &quot;Remove&quot; icon&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="65" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-13" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="112.5" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-14" value="student list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="QDjTLERaOXLPRArQjVgm-0" vertex="1">
+          <mxGeometry x="85" y="570" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LzrKhrB-GF-hrbGAN-3P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="QDjTLERaOXLPRArQjVgm-0" source="LzrKhrB-GF-hrbGAN-3P-1" target="QDjTLERaOXLPRArQjVgm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LzrKhrB-GF-hrbGAN-3P-1" value="Update Student List" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="QDjTLERaOXLPRArQjVgm-0">
+          <mxGeometry x="67.5" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-15" value="Database" style="swimlane;whiteSpace=wrap;startSize=23;" parent="GCy_2HIm_hiaK4Stqe_q-1" vertex="1">
+          <mxGeometry x="360" y="90" width="280" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-16" value="Remove student from course table" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="QDjTLERaOXLPRArQjVgm-15" vertex="1">
+          <mxGeometry x="100" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="GCy_2HIm_hiaK4Stqe_q-1" source="QDjTLERaOXLPRArQjVgm-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="203" y="500" />
+              <mxPoint x="530" y="500" />
+              <mxPoint x="530" y="550" />
+            </Array>
+            <mxPoint x="530" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDjTLERaOXLPRArQjVgm-23" value="Confirm student removal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QDjTLERaOXLPRArQjVgm-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.6804" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LzrKhrB-GF-hrbGAN-3P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="GCy_2HIm_hiaK4Stqe_q-1" source="QDjTLERaOXLPRArQjVgm-16" target="LzrKhrB-GF-hrbGAN-3P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
