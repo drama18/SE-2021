@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2021-06-03T20:04:20.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="28liaKQEYqZRWGQatkBu" version="14.6.13" type="google">
+  <diagram id="faIo5c-jZSLrHSdwjfuA" name="06-Request-Appointment">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="yuH2GVNWvUTiRZPIgLCf-0" />
+        <mxCell id="yuH2GVNWvUTiRZPIgLCf-1" parent="yuH2GVNWvUTiRZPIgLCf-0" />
+        <mxCell id="FrfEchyRbu6GS0GdKilM-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1" source="FrfEchyRbu6GS0GdKilM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-1" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="190" y="130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-2" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="230" as="sourcePoint" />
+            <mxPoint x="205" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;startArrow=none;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="730" />
+              <mxPoint x="470" y="730" />
+            </Array>
+            <mxPoint x="470" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1" source="FrfEchyRbu6GS0GdKilM-5" target="dpwf2N4j9Exe6jkWIahI-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="463" />
+              <mxPoint x="350" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpwf2N4j9Exe6jkWIahI-3" value="Online Meeting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FrfEchyRbu6GS0GdKilM-4">
+          <mxGeometry x="-0.8633" relative="1" as="geometry">
+            <mxPoint x="10" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-5" value="" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="170" y="440" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-6" value="&lt;span&gt;Open Request Appointments&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="145" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpwf2N4j9Exe6jkWIahI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1" source="FrfEchyRbu6GS0GdKilM-8" target="dpwf2N4j9Exe6jkWIahI-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-8" value="Choose preferred time" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="135" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpwf2N4j9Exe6jkWIahI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1" source="FrfEchyRbu6GS0GdKilM-17" target="dpwf2N4j9Exe6jkWIahI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-17" value="Describe topics to discuss" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="145" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-18" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="190" y="750" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1" source="FrfEchyRbu6GS0GdKilM-5" target="FrfEchyRbu6GS0GdKilM-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="530" />
+              <mxPoint x="205" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-20" value="One to one meeting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FrfEchyRbu6GS0GdKilM-19">
+          <mxGeometry x="-0.8809" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-22" value="Dashoard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="170" y="790" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FrfEchyRbu6GS0GdKilM-25" value="Course Stream" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="140" y="110" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dpwf2N4j9Exe6jkWIahI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1" source="dpwf2N4j9Exe6jkWIahI-0" target="FrfEchyRbu6GS0GdKilM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpwf2N4j9Exe6jkWIahI-0" value="Choose preferred date" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="135" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpwf2N4j9Exe6jkWIahI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="yuH2GVNWvUTiRZPIgLCf-1" source="dpwf2N4j9Exe6jkWIahI-4" target="FrfEchyRbu6GS0GdKilM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dpwf2N4j9Exe6jkWIahI-4" value="Submit request" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="yuH2GVNWvUTiRZPIgLCf-1">
+          <mxGeometry x="145" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
