@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2021-06-04T06:25:18.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="WlnEo2KCJLEGqkyWPrdj" version="14.6.13" type="google">
+  <diagram name="05-MentorSpecific-Course" id="tK_dHfcSPG18e2lDkQRJ">
+    <mxGraphModel dx="2272" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-0" />
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-1" parent="Auhd815V2R3D3Y-xMnOx-0" />
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.455;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-2" target="FaoBCuWCoUQJTCPVrkf7-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="60" />
+              <mxPoint x="1240" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-14" value="select student requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FaoBCuWCoUQJTCPVrkf7-13">
+          <mxGeometry x="-0.7277" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-2" value="Loading Course Stream" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="280" y="80" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-3" value="do: View teaching courses&lt;br&gt;edit profile&lt;br&gt;view/edit student list&lt;br&gt;manage student requests&lt;br&gt;manage appointments&lt;br&gt;edit timetable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-2">
+          <mxGeometry y="30" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-5" target="Auhd815V2R3D3Y-xMnOx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="375" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-6" value="Logged in" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="355" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.218;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="97.05999999999995" y="231.01999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-11" value="Select course material" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Auhd815V2R3D3Y-xMnOx-10">
+          <mxGeometry x="-0.0177" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-12" value="Exit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.459;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-13" target="Auhd815V2R3D3Y-xMnOx-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="270" />
+              <mxPoint x="381" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-13" value="Loading Mentor Details" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=23;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="260" y="290" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-14" value="do: edit profile&lt;br&gt;edit bio&lt;br&gt;edit courses and links" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-13">
+          <mxGeometry y="30" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-15" value="Select Edit Profile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-3" target="Auhd815V2R3D3Y-xMnOx-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.147;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.98999999999978" y="428.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-20" value="Select Make changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Auhd815V2R3D3Y-xMnOx-19">
+          <mxGeometry x="0.0335" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.814;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;exitX=0.963;exitY=0.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-23" target="Auhd815V2R3D3Y-xMnOx-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="459" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-22" value="Display stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Auhd815V2R3D3Y-xMnOx-21">
+          <mxGeometry x="-0.5727" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-23" value="Checking Authentication" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=23;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="270" y="470" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-24" value="&lt;i&gt;Mentor ID&lt;/i&gt;&lt;br&gt;&lt;i&gt;--------------------------------&lt;/i&gt;&lt;br&gt;do: View accessed materials" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-23">
+          <mxGeometry y="30" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-25" value="Select course link" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-14" target="Auhd815V2R3D3Y-xMnOx-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-26" value="&amp;nbsp;Creating Empty Appointment" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="570" y="190" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-27" value="system state:&amp;nbsp; ready input&lt;br&gt;---------------------------------------------&lt;br&gt;do: create Pending Appointment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-26">
+          <mxGeometry y="30" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.309;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-3" target="Auhd815V2R3D3Y-xMnOx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-29" value="Manage Appointment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Auhd815V2R3D3Y-xMnOx-28">
+          <mxGeometry x="-0.4157" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="549" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="675" y="540" />
+              <mxPoint x="675" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-31" value="mentor confrms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Auhd815V2R3D3Y-xMnOx-30">
+          <mxGeometry x="-0.2134" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-32" value="Pending Appointment" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="560" y="350" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-33" value="system state:&amp;nbsp;&lt;i&gt; waiting schedule&lt;br&gt;input: date and time&lt;br&gt;type of meeting&lt;br&gt;topics&lt;br&gt;Student IDS&lt;/i&gt;&lt;br&gt;---------------------------------------------&lt;br&gt;do: schedule Appointment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-32">
+          <mxGeometry y="30" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-34" value="Student adds details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=-0.015;entryDx=0;entryDy=0;strokeColor=#FF0000;entryPerimeter=0;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-27" target="Auhd815V2R3D3Y-xMnOx-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-35" value="Appointment with status confirmed" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="565" y="550" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-36" value="system state:&amp;nbsp; ready input&lt;br&gt;---------------------------------------------&lt;br&gt;do: save Appointment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-35">
+          <mxGeometry y="30" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-41" value="Pending Notification" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="565" y="750" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-42" value="system state:&amp;nbsp; waiting&lt;br&gt;input: &lt;i&gt;Appointment Status&lt;/i&gt;&lt;br&gt;---------------------------------------------&lt;br&gt;do: send notification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-41">
+          <mxGeometry y="30" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-43" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="810" y="960" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-48" value="invoke notification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-36" target="Auhd815V2R3D3Y-xMnOx-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="730" />
+              <mxPoint x="680" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-42" target="Auhd815V2R3D3Y-xMnOx-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;exitX=0.032;exitY=0.133;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" target="Auhd815V2R3D3Y-xMnOx-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="877.04" y="127.98000000000002" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="877" y="122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-54" value="Exit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Auhd815V2R3D3Y-xMnOx-53">
+          <mxGeometry x="-0.2867" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;exitX=0.995;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="Auhd815V2R3D3Y-xMnOx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="996.06" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="499" y="90" />
+              <mxPoint x="996" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Auhd815V2R3D3Y-xMnOx-57" value="Select View Timetable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Auhd815V2R3D3Y-xMnOx-56">
+          <mxGeometry x="-0.5684" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-0" value="Editing Course Stream" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="10" y="230" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-1" value="system state:&amp;nbsp; waiting&lt;br&gt;---------------------------------------------&lt;br&gt;do: edit existing week materials&lt;br&gt;add new week material&lt;br&gt;delete current materials&lt;br&gt;edit visibility" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dzae1FEthM8qZqwyOSkv-0">
+          <mxGeometry y="30" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="dzae1FEthM8qZqwyOSkv-2" target="Auhd815V2R3D3Y-xMnOx-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-7" value="Close editing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dzae1FEthM8qZqwyOSkv-6">
+          <mxGeometry x="-0.6091" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-2" value="Adding new material" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="-190" y="390" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-3" value="system state:&amp;nbsp; waiting input&lt;br&gt;input: uploaded materials&lt;br&gt;---------------------------------------------&lt;br&gt;do: save changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dzae1FEthM8qZqwyOSkv-2">
+          <mxGeometry y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="dzae1FEthM8qZqwyOSkv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="389" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="305" />
+              <mxPoint x="-20" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-5" value="Add new material" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dzae1FEthM8qZqwyOSkv-4">
+          <mxGeometry x="0.4561" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-9" value="Editing Profile" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="30" y="430" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-10" value="system state:&amp;nbsp; waiting input&lt;br&gt;input: uploaded profile pic&lt;br&gt;bio text &lt;br&gt;changed links&lt;br&gt;---------------------------------------------&lt;br&gt;do: save changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dzae1FEthM8qZqwyOSkv-9">
+          <mxGeometry y="30" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="dzae1FEthM8qZqwyOSkv-10" target="Auhd815V2R3D3Y-xMnOx-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-12" value="Loading Timetable Details" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=23;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="870" y="120" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-13" value="do: insert meeting&lt;br&gt;manage consultations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dzae1FEthM8qZqwyOSkv-12">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-14" value="Pending Timetable Editing" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=23;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="870" y="270" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-15" value="system state: waiting&lt;br&gt;input: meeting/consultation from dropdown&lt;br&gt;----------------------------------&lt;br&gt;do: Update Timetable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dzae1FEthM8qZqwyOSkv-14">
+          <mxGeometry y="30" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-16" value="Select table cell" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="dzae1FEthM8qZqwyOSkv-13" target="dzae1FEthM8qZqwyOSkv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-17" value="Timetable updates" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="855" y="470" width="235" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-18" value="system state:&amp;nbsp; ready&lt;br&gt;---------------------------------------------&lt;br&gt;do: save changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dzae1FEthM8qZqwyOSkv-17">
+          <mxGeometry y="30" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-19" value="Pending Notification" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="855" y="670" width="235" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-20" value="system state:&amp;nbsp; waiting&lt;br&gt;input: &lt;i&gt;Timetabe details&lt;/i&gt;&lt;br&gt;---------------------------------------------&lt;br&gt;do: send notification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dzae1FEthM8qZqwyOSkv-19">
+          <mxGeometry y="30" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-21" value="invoke notification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="dzae1FEthM8qZqwyOSkv-18" target="dzae1FEthM8qZqwyOSkv-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="650" />
+              <mxPoint x="970" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="dzae1FEthM8qZqwyOSkv-15" target="dzae1FEthM8qZqwyOSkv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-23" value="confirm changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dzae1FEthM8qZqwyOSkv-22">
+          <mxGeometry x="-0.2667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dzae1FEthM8qZqwyOSkv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="dzae1FEthM8qZqwyOSkv-20" target="Auhd815V2R3D3Y-xMnOx-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="880" />
+              <mxPoint x="836" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.641;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-0" target="Auhd815V2R3D3Y-xMnOx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="50" />
+              <mxPoint x="421" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-16" value="Exit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FaoBCuWCoUQJTCPVrkf7-15">
+          <mxGeometry x="-0.9028" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-0" value="Loading Student Requests" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="1140" y="180" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-1" value="do:&amp;nbsp; select Student&lt;br&gt;accept to course&lt;br&gt;decline course access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="FaoBCuWCoUQJTCPVrkf7-0">
+          <mxGeometry y="30" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1245" y="539" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1245" y="530" />
+              <mxPoint x="1245" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-3" value="mentor confrms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FaoBCuWCoUQJTCPVrkf7-2">
+          <mxGeometry x="-0.2134" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-4" value="Pending Approval" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="1130" y="340" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-5" value="system state:&amp;nbsp;&lt;i&gt; waiting&amp;nbsp;&lt;br&gt;input: final confirmation&lt;br&gt;Student ID&lt;/i&gt;&lt;br&gt;---------------------------------------------&lt;br&gt;do: accept Student" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="FaoBCuWCoUQJTCPVrkf7-4">
+          <mxGeometry y="30" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-6" value="Select accept student" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=-0.015;entryDx=0;entryDy=0;strokeColor=#FF0000;entryPerimeter=0;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-1" target="FaoBCuWCoUQJTCPVrkf7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-7" value="Approval with status confirmed" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="1135" y="540" width="225" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-8" value="system state:&amp;nbsp; ready&lt;br&gt;---------------------------------------------&lt;br&gt;do: update Student list&lt;br&gt;notify student" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="FaoBCuWCoUQJTCPVrkf7-7">
+          <mxGeometry y="30" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-9" value="Pending Notification" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="1135" y="740" width="225" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-10" value="system state:&amp;nbsp; waiting&lt;br&gt;input: &lt;i&gt;Approval Status&lt;/i&gt;&lt;br&gt;---------------------------------------------&lt;br&gt;do: send notification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="FaoBCuWCoUQJTCPVrkf7-9">
+          <mxGeometry y="30" width="225" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-11" value="invoke notification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-8" target="FaoBCuWCoUQJTCPVrkf7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="720" />
+              <mxPoint x="1250" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-10" target="Auhd815V2R3D3Y-xMnOx-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="930" />
+              <mxPoint x="840" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-17" value="Pending Declining" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="1380" y="340" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-18" value="system state:&amp;nbsp;&lt;i&gt; waiting&amp;nbsp;&lt;br&gt;input: final confirmation&lt;br&gt;Student ID&lt;/i&gt;&lt;br&gt;---------------------------------------------&lt;br&gt;do: remove Student" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="FaoBCuWCoUQJTCPVrkf7-17">
+          <mxGeometry y="30" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-19" value="Removal with status confirmed" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="Auhd815V2R3D3Y-xMnOx-1">
+          <mxGeometry x="1380" y="540" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-20" value="system state:&amp;nbsp; ready&lt;br&gt;---------------------------------------------&lt;br&gt;do: remove student from requests" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="FaoBCuWCoUQJTCPVrkf7-19">
+          <mxGeometry y="30" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-21" value="mentor confirms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-18" target="FaoBCuWCoUQJTCPVrkf7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.539;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-1" target="FaoBCuWCoUQJTCPVrkf7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-23" value="Select decline student" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FaoBCuWCoUQJTCPVrkf7-22">
+          <mxGeometry x="-0.6154" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaoBCuWCoUQJTCPVrkf7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="Auhd815V2R3D3Y-xMnOx-1" source="FaoBCuWCoUQJTCPVrkf7-20" target="Auhd815V2R3D3Y-xMnOx-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
