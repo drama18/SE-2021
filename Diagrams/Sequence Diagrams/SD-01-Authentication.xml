@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2021-06-10T19:38:42.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="Uzenw5W_XoMgZXaW6mCx" version="14.7.7" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="01-Authentication">
+    <mxGraphModel dx="2272" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-35" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="380" as="sourcePoint" />
+            <mxPoint x="59.5" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="59.5" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=40;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="150" width="830" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-11" value="" style="endArrow=none;dashed=1;html=1;exitX=0.003;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;" parent="mkDKoidq_Q45tJZdNOHO-8" target="mkDKoidq_Q45tJZdNOHO-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="21.800000000000182" y="142" as="sourcePoint" />
+            <mxPoint x="620" y="138" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="140" />
+              <mxPoint x="570" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-12" value="[correct&lt;br&gt;credentials]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="mkDKoidq_Q45tJZdNOHO-8" vertex="1">
+          <mxGeometry x="40" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-13" value="[wrong&lt;br&gt;credentials]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="mkDKoidq_Q45tJZdNOHO-8" vertex="1">
+          <mxGeometry x="40" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-34" value="condition" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="mkDKoidq_Q45tJZdNOHO-8" vertex="1">
+          <mxGeometry x="20" y="60" width="810" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-40" value="Display dashboard based on user role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="mkDKoidq_Q45tJZdNOHO-8" vertex="1">
+          <mxGeometry x="310" y="90" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-47" value="Display login error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="mkDKoidq_Q45tJZdNOHO-8" vertex="1">
+          <mxGeometry x="280" y="182" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":UserForm" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="130" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="check login details" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="180.0000000000001" as="sourcePoint" />
+            <mxPoint x="345" y="180.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="70" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-6" value=":Authenticate Dashboard" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="80" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="mkDKoidq_Q45tJZdNOHO-6" vertex="1">
+          <mxGeometry x="60" y="160" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" parent="mkDKoidq_Q45tJZdNOHO-6" source="mkDKoidq_Q45tJZdNOHO-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="160" />
+              <mxPoint x="110" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="160" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="email, password" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-14" value=":Verification" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-15" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="mkDKoidq_Q45tJZdNOHO-14" vertex="1">
+          <mxGeometry x="45" y="100" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-16" value="Valid login details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry x="0.0192" y="10" relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="sourcePoint" />
+            <mxPoint x="550" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="210" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="mkDKoidq_Q45tJZdNOHO-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="240" />
+              <mxPoint x="590" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-20" value="provide authorization for access" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="220" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-38" value="allow users to access pages base on user token and session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="810" y="250" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" parent="1" source="mkDKoidq_Q45tJZdNOHO-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-42" value="Invalid credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mkDKoidq_Q45tJZdNOHO-41" edge="1">
+          <mxGeometry x="-0.0355" y="10" relative="1" as="geometry">
+            <mxPoint x="552" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="320" />
+              <mxPoint x="390" y="320" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-41" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="290" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=open;endFill=0;" parent="1" source="mkDKoidq_Q45tJZdNOHO-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="66" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-43" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="544" y="323" width="10" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mkDKoidq_Q45tJZdNOHO-46" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="290" width="10" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
