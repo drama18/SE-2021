@@ -1,0 +1,36 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block sidebar %}
+<ul class="navbar-nav text-light" id="adminSidebar">
+    <li class="nav-item" id="side">
+        <a class="nav-link" href="{{ path('mentor-home') }}"><i class="fa fa-home" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Home</span></a>
+        <a class="nav-link" href="{{ path('mentor-profile') }}"><i class="fa fa-user" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Profile</span></a>
+        <a class="nav-link" href="{{ path('mentor-all-courses') }}"><i class="fa fa-file" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Courses</span></a>
+        <a class="nav-link" href="{{ path('mentor-all-students') }}"><i class="fa fa-users" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="font-size: 20px;color: rgb(255,255,255);">Students</span></a>
+        <a class="nav-link" href="{{ path('mentor-timetable') }}"><i class="fas fa-clock" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="font-size: 20px;color: rgb(255,255,255);">Timetable</span></a>
+        <a class="nav-link active" href="{{ path('mentor-achievements') }}" style="background: #ededed;"><i class="fas fa-certificate" style="color: rgb(33,83,150);width: 20px;height: 20px;"></i><span style="color: #215396;font-size: 20px;">Achievements</span></a>
+    </li>
+</ul>
+{% endblock %}
+{% block main %}
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-1" style="color: #215396;margin-bottom: 50px;padding-bottom: 20px;">My Achievements</h3>
+                    <div class="row">
+                        {% for course in completedCourses %}
+                    <div class="card" style="width: 70%;height: 230px; margin-bottom: 30px;">
+                        <div class="card-body" style="padding: 0px;background: #cfd8dc;">
+                            <div style="height: 80%;"><img class="float-left" style="width: 200px;height: 100%;">
+                                <h4 style="color: #215396;width: 100;margin-left: 200px;padding: 19px 0px 0px;padding-top: 20px;padding-left: 20px;padding-bottom: 10px;">{{ app.user.name }} {{ app.user.surname }}</h4>
+                                <h6 class="text-muted mb-2" style="width: 100;margin-left: 200px;color: #215396;padding-right: 0;padding-left: 20px;padding-bottom: 10px;">{{ course.getCode()}} - {{ course.getName() }}</h6>
+                                <h6 class="text-muted mb-2" style="width: 100;margin-left: 200px;color: #215396;padding-left: 20px;padding-bottom: 10px;">{{ course.getStartDate()|date("Y/m/d")}} - {{ course.getEndDate()|date("Y/m/d")}}</h6>
+                                <h6 class="text-muted mb-2" style="width: 100;margin-left: 200px;color: #215396;padding-left: 20px;padding-bottom: 10px;">Rating - 4.88/5.00</h6>
+                            </div>
+                            <div style="padding: 10px;background: #ffffff;text-align: center;"><a href="#" style="color: #215396;">Download Certificate</a><i class="fa fa-download" style="width: 20px;height: 20px;padding-left: 20px;color: #215396;"></i></div>
+                        </div>
+                    </div>
+                        {% endfor %}
+                    </div>
+                </div>
+{% endblock %}
+
+

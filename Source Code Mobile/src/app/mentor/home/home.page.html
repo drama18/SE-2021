@@ -1,0 +1,135 @@
+<ion-content>    
+  <div class="container-fluid">
+    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-dark mb-0" style="margin-bottom: 5px;">Dashboard</h3><a class="btn btn-primary btn-sm" role="button" routerLink="/mentor/create-course"><i class="fas fa-plus fa-sm text-white-50"></i>&nbsp;Create a new course</a>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-primary py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Students Number</span></div>
+                            <div class="text-dark font-weight-bold h5 mb-0"><span>{{ dashboard.studentsNumber }}</span></div>
+                        </div>
+                        <div class="col-auto"><i class="fas fa-user fa-2x text-gray-300"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-warning py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Pending Requests</span></div>
+                            <div class="text-dark font-weight-bold h5 mb-0"><span>{{ dashboard.pendingRequestNumber }}</span></div>
+                        </div>
+                        <div class="col-auto"><i class="fas fa-user-plus fa-2x text-gray-300"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-success py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>To do tasks</span></div>
+                            <div class="text-dark font-weight-bold h5 mb-0"><span>{{ dashboard.nrOfToDO }}</span></div>
+                        </div>
+                        <div class="col-auto"><i class="fas fa-tasks fa-2x text-gray-300"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-info py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>This week Tasks</span></div>
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-auto">
+                                    <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>{{ dashboard.nrOfThisWeekTasks }}</span></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-auto"><i class="fas fa-clipboard-list fa-2x text-gray-300"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-7 col-xl-8">
+            <div class="card shadow mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="text-primary font-weight-bold m-0">Current Courses</h6>
+                </div>
+                <div class="card-body container-fluid py-2 scroll">
+                  <div class="d-flex flex-row flex-nowrap">
+                    <div *ngFor="let course of dashboard.currentCourses" style="margin-right: 25px;" class="card col-12">
+                        <div class="card-body">
+                            <div style="width: 100%; height: 150px"><img src="assets/img/dogs/image3.jpeg" style="max-height: 100%; margin-left: 50%; transform: translateX(-50%)"></div>
+                            <hr>
+                            <div class="row">
+                                <div class="col col-10">
+                                    <h4 style="margin-top: 10px;font-size: 15px;">{{ course.Title }}</h4>
+                                    <h6 style="margin-top: 10px;font-size: 12px; color: gray;">{{ course.Code }}</h6>
+                                </div>
+                                <div class="col col-1" style="position: relative;right: 0px;margin-top: 10px;margin-left: 10px;"><a href="#"><i class="fas fa-ellipsis-v" style="color: var(--gray);"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="text-primary font-weight-bold m-0">This Week's Activity</h6>
+                </div>
+                <div class="card-body container-fluid py-2 scroll">
+                  <div class="d-flex flex-row flex-nowrap">
+                    <div *ngFor="let activity of dashboard.thisWeeksActivity" style="margin-right: 25px;" class="card col-12">
+                        <div class="card-body">
+                            <div style="text-align: center;color: var(--red);"><span>{{ weekday[activity.Time.getDay()] }}</span>
+                                <p>{{ activity.Time.getDay() + " " + month[activity.Time.getMonth()] }}</p>
+                            </div>
+                            <hr style="margin: 6px;margin-right: 0px;margin-left: 0px;margin-top: 6px;margin-bottom: 10px;">
+                            <h4 class="card-title">{{ activity.Code }}</h4>
+                            <p class="card-text">{{ activity.Text }}</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer"><a class="btn btn-secondary btn-icon-split" role="button" style="margin-bottom: 10px;margin-right: 5px;margin-left: 5px;width: 100%;"><span class="text-white-50 icon"><i class="fas fa-users"></i></span><span class="text-white text">Setup a meeting</span></a></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="text-primary font-weight-bold m-0">Todo List</h6>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li *ngFor="let todo of dashboard.toDoList; let i = index" class="list-group-item">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col mr-2">
+                                <h6 class="mb-0"><strong>{{ todo.Title }}</strong></h6><span class="text-xs">{{ todo.Date.getDate() + " " + month[todo.Date.getMonth()] + " | " + todo.Time }}</span>
+                            </div>
+                            <div class="col-auto">
+                                <div class="custom-control custom-checkbox"><input class="custom-control-input" type="checkbox" [id]="'formCheck-' + i" [(ngModel)]="todo.selected"><label class="custom-control-label" [for]="'formCheck-' + i"></label></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul><a class="btn btn-primary btn-icon-split" role="button" style="border-radius: 0px;"><span class="text-white text">Add To-do Task</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+</ion-content>

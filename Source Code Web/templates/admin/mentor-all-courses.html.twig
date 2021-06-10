@@ -1,0 +1,60 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block sidebar %}
+    <ul class="navbar-nav text-light" id="adminSidebar">
+        <li class="nav-item" id="side">
+            <a class="nav-link" href="{{ path('mentor-home') }}"><i class="fa fa-home" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Home</span></a>
+            <a class="nav-link" href="{{ path('mentor-profile') }}"><i class="fa fa-user" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Profile</span></a>
+            <a class="nav-link active" href="{{ path('mentor-all-courses') }}" style="background: #ededed;"><i class="fa fa-file" style="color: rgb(33,83,150);width: 20px;height: 20px;"></i><span style="color: #215396;font-size: 20px;">Courses</span></a>
+            <a class="nav-link" href="{{ path('mentor-all-students') }}"><i class="fa fa-users" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="font-size: 20px;color: rgb(255,255,255);">Students</span></a>
+            <a class="nav-link" href="{{ path('mentor-timetable') }}"><i class="fas fa-clock" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="font-size: 20px;color: rgb(255,255,255);">Timetable</span></a>
+            <a class="nav-link" href="{{ path('mentor-achievements') }}"><i class="fas fa-certificate" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="font-size: 20px;color: rgb(255,255,255);">Achievements</span></a>
+        </li>
+    </ul>
+{% endblock %}
+
+{% block main %}
+                <div class="container-fluid">
+                    <div style="height: 40px;margin: 20px;">
+                        <h3 class="text-dark d-inline float-left mb-1" style="color: #215396;padding-bottom: 20px;width: 300px;height: 38px;"><strong>Current Courses</strong><br></h3>
+                        <a class="btn btn-primary d-inline float-right btn-icon-split" role="button" href="{{ path('create-course') }}" style="text-align: left;margin-bottom: 20px;background: #215396;"><span class="text-white-50 icon"><i class="fas fa-plus"></i></span><span class="text-white text">Create Course</span></a>
+                    </div>
+                    <div class="row">
+                        {% for course in currentCourses %}
+                        <div class="card d-block" style="width: 450px;margin-bottom: 30px; margin-left: 30px;">
+                            <div class="card-body">
+                                <div style="width: 100%; height: 150px"><img src="{{ asset('assets/img/dogs/course.jpg') }}" style="max-height: 100%;margin-left: 50%;transform: translateX(-50%);width: 100%;"></div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col col-10" style="border-color: rgb(133, 135, 150);border-top-color: rgb(133,;border-right-color: 135,;border-bottom-color: 150);border-left-color: 135,;">
+                                        <h4 style="margin-top: 10px;font-size: 18px;color: #215396;">{{ course.getCode() }} - {{ course.getName() }}</h4>
+                                    </div>
+                                    <div class="col col-1" style="position: relative;right: 0px;margin-top: 10px;margin-left: 10px;"><a href="#"><i class="fas fa-ellipsis-v" style="color: var(--gray);"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+
+                    <div style="height: 40px;margin: 20px;">
+                        <h3 class="text-dark d-inline float-left mb-1" style="color: #215396;padding-bottom: 20px;width: 300px;height: 38px;"><strong>Completed Courses</strong><br></h3>
+                    </div>
+                    <div class="row">
+                        {% for course in completedCourses %}
+                        <div class="card d-block" style="width: 450px;margin-bottom: 10px; margin-left: 10px;">
+                            <div class="card-body">
+                                <div style="width: 100%; height: 150px"><img src="{{ asset('assets/img/dogs/courses2.png') }}" style="max-height: 100%;margin-left: 50%;transform: translateX(-50%);width: 100%;"></div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col col-10">
+                                        <h4 style="margin-top: 10px;font-size: 18px;color: #215396;">{{ course.getCode() }} - {{ course.getName() }}</h4>
+                                    </div>
+                                    <div class="col col-1" style="position: relative;right: 0px;margin-top: 10px;margin-left: 10px;"><a href="#"><i class="fas fa-ellipsis-v" style="color: var(--gray);"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+{% endblock %}
