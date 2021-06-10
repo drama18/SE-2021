@@ -1,0 +1,69 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block sidebar %}
+    <ul class="navbar-nav text-light" id="adminSidebar">
+        <li class="nav-item" id="side">
+            <a class="nav-link" href="{{ path('mentor-home') }}"><i class="fa fa-home" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Home</span></a>
+            <a class="nav-link active" href="{{ path('mentor-profile') }}" style="background: #ededed;"><i class="fa fa-user" style="color: rgb(33,83,150);width: 20px;height: 20px;"></i><span style="color: #215396;font-size: 20px;">Profile</span></a>
+            <a class="nav-link" href="{{ path('mentor-all-courses') }}"><i class="fa fa-file" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Courses</span></a>
+            <a class="nav-link" href="{{ path('mentor-all-students') }}"><i class="fa fa-users" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="font-size: 20px;color: rgb(255,255,255);">Students</span></a>
+            <a class="nav-link" href="{{ path('mentor-timetable') }}"><i class="fas fa-clock" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="font-size: 20px;color: rgb(255,255,255);">Timetable</span></a>
+            <a class="nav-link" href="{{ path('mentor-achievements') }}"><i class="fas fa-certificate" style="color: rgb(255,255,255);width: 20px;height: 20px;"></i><span style="color: rgb(255,255,255);font-size: 20px;">Achievements</span></a>
+        </li>
+    </ul>
+{% endblock %}
+{% block main %}
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-4">Profile</h3>
+                    <div class="row mb-3">
+                        <div class="col-lg-4">
+                            <div class="card mb-3" style="width: 100;">
+                                <div class="card-body text-center shadow" style="width: 100%;"><img class="rounded-circle mb-3 mt-4" src="{{ asset('assets/img/dogs/user.png') }}" width="160" height="160">
+                                    <div class="mb-3"><button class="btn btn-primary btn-sm" type="button" style="background: #215396;">Change Photo</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card shadow">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary m-0 font-weight-bold">{{ app.user.name }} {{ app.user.surname }}</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="col">
+                                                        <div class="form-group"><label for="name"><strong>First Name</strong></label><input class="form-control" type="text" id="name" placeholder="{{ app.user.name }}" name="name"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group"><label for="surname"><strong>Last Name</strong></label><input class="form-control" type="text" id="surname" placeholder="{{ app.user.surname }}" name="surname"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="address"><strong>Edit Biography</strong></label>
+                                                    <textarea class="form-control" id="bio" rows="4" name="bio" placeholder="{{ app.user.bio }}"></textarea>
+                                                    {# {{ form_widget(form1.bio, {'attr': {'class':'form-control', 'type':'text', 'id':'bio', 'placeholder':'app.user.bio', 'name':'bio'}}) }} #}
+                                                </div>
+                                                <div class="form-group"><label for="address"><strong>Course Links</strong></label>
+                                                    {% for course in allCourses %}
+                                                    <div class="form-row">
+                                                        <div class="col">
+                                                            <div class="form-group"><input class="form-control" type="text" id="city" placeholder="{{ course.getName() }}" name="Course Name" style="width: 90%;"></div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group"><input class="form-control" type="text" id="country" placeholder="Course Link" name="Course Link" style="width: 90%;text-align: left;"></div>
+                                                        </div>
+                                                    </div>
+                                                    {% endfor %}
+                                                </div>
+                                                <div class="form-group text-right" style="margin-right: 10px;"><button class="btn btn-primary btn-sm" type="submit" style="background: #215396;text-align: center;">Save&nbsp;Settings</button></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+{% endblock %}

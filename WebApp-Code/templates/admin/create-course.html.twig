@@ -1,0 +1,32 @@
+{% extends 'security/base.html.twig' %}
+{% block main %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-12 col-xl-10">
+            <div class="card shadow-lg o-hidden border-0 my-5" style="width: 100%;">
+                <div class="card-body p-0">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <h4 class="text-dark mb-4">Create New Course</h4>
+                        </div>
+                        {{ form_start(form,{'attr': {'class':'user'}}) }}
+                            <div class="form-group">
+                                <h6 class="text-dark mb-4">Course Code</h6>
+                                {# <input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Ex: CEN 110" name="code" style="width: 40;"> #}
+                                {{ form_widget(form.code, {'attr': {'class':'form-control form-control-user', 'type':'text', 'id':'code', 'placeholder':'Ex: CEN 110', 'name':'code', 'style':'width: 40;'}}) }}
+                            </div>
+                            <div class="form-group" style="width: 100%;">
+                                <h6 class="text-dark mb-4">Course Name</h6>
+                                {# <input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Ex: C Programming" name="name"> #}
+                                {{ form_widget(form.name, {'attr': {'class':'form-control form-control-user', 'type':'text', 'id':'name', 'placeholder':'Ex: C Programming', 'name':'name', 'style':'width: 40;'}}) }}
+                            </div>
+
+                            <hr>
+                        <button class="btn btn-primary btn-block text-white btn-user" type="submit" style="background: #215396;">Create</button>
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
