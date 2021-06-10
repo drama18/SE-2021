@@ -1,0 +1,85 @@
+<ion-content>
+  <div class="container-fluid">
+    <h3 class="text-dark mb-4">Students</h3>
+    <div class="card shadow" style="margin-bottom: 20px;">
+        <div class="card-header py-3">
+            <p class="text-primary m-0 font-weight-bold">Students List</p>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
+                <table class="table my-0" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>Degree</th>
+                            <th>Courses</th>
+                            <th>Start date</th>
+                            <th>Send Mail</th>
+                            <th>Remove Student</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let student of studentsList">
+                            <td><img class="rounded-circle mr-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">{{ student.Name }}</td>
+                            <td>{{ student.Department }}</td>
+                            <td>{{ student.Degree }}</td>
+                            <td>{{ student.CourseNumber }}</td>
+                            <td>{{ student.StartDate.getFullYear() }}/{{ student.StartDate.getMonth() + 1 }}/{{ student.StartDate.getDate() }}</td>
+                            <td><a class="btn btn-info btn-circle ml-1" role="button"><i class="fas fa-envelope text-white"></i></a></td>
+                            <td><a class="btn btn-danger btn-circle ml-1" role="button"><i class="fas fa-trash text-white"></i></a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr></tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Total of {{ studentsList.length }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card shadow" style="margin-bottom: 20px;">
+        <div class="card-header py-3">
+            <p class="text-primary m-0 font-weight-bold">Student Requests</p>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive table mt-2" id="dataTable-1" role="grid" aria-describedby="dataTable_info">
+                <table class="table my-0" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>Degree</th>
+                            <th>Courses</th>
+                            <th>Accept</th>
+                            <th>Decline</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let student of studentsRequests">
+                            <td><img class="rounded-circle mr-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">{{ student.Name }}</td>
+                            <td>{{ student.Department }}</td>
+                            <td>{{ student.Degree }}</td>
+                            <td>{{ student.CourseNumber }}</td>
+                            <td><a class="btn btn-success btn-circle ml-1" role="button"><i class="fas fa-check text-white"></i></a></td>
+                            <td><a class="btn btn-danger btn-circle ml-1" role="button"><i class="fas fa-trash text-white"></i></a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr></tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Total of {{ studentsRequests.length }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</ion-content>

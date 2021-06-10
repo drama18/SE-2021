@@ -1,0 +1,58 @@
+<ion-content>
+  <div class="container-fluid">
+    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-dark mb-1">Courses</h3>
+        <a class="btn btn-primary btn-sm" role="button" href="#"><i class="fas fa-plus fa-sm text-white-50"></i>&nbsp;Add Course</a>
+    </div>
+    <div class="row">
+        <div class="col-lg-7 col-xl-8">
+            <div class="card shadow mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="text-primary font-weight-bold m-0">Currently enrolled Courses</h6>
+                </div>
+                <div class="card-body container-fluid py-2 scroll">
+                    <div class="d-flex flex-row flex-nowrap">
+                        <div *ngFor="let course of currentCourses" style="margin-right: 25px;" class="card col-12">
+                            <div class="card-body">
+                                <div style="width: 100%; height: 150px"><img src="assets/img/dogs/image3.jpeg" style="max-height: 100%; margin-left: 50%; transform: translateX(-50%)"></div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col col-10">
+                                        <h4 style="margin-top: 10px;font-size: 15px;">{{ course.Title }}</h4>
+                                        <h6 style="margin-top: 10px;font-size: 12px; color: gray;">{{ course.Code }}</h6>
+                                    </div>
+                                    <div class="col col-1" style="position: relative;right: 0px;margin-top: 10px;margin-left: 10px;"><a href="#"><i class="fas fa-ellipsis-v" style="color: var(--gray);"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7 col-xl-8">
+            <div class="card shadow mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="text-primary font-weight-bold m-0">Completed Courses</h6>
+                </div>
+                <div class="card-body container-fluid py-2 scroll">
+                    <div class="d-flex flex-row flex-nowrap">
+                        <div *ngFor="let course of completedCourses" style="margin-right: 25px;" class="card col-12">
+                            <div class="card-body">
+                                <div style="width: 100%; height: 150px"><img src="assets/img/dogs/image3.jpeg" style="max-height: 100%; margin-left: 50%; transform: translateX(-50%)"></div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col col-10">
+                                        <h4 style="margin-top: 10px;font-size: 15px;">{{ course.Title }}</h4>
+                                        <h6 style="margin-top: 10px;font-size: 12px; color: gray;">{{ course.Code }}</h6>
+                                    </div>
+                                    <div class="col col-1" style="position: relative;right: 0px;margin-top: 10px;margin-left: 10px;"><a href="#"><i class="fas fa-ellipsis-v" style="color: var(--gray);"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</ion-content>
